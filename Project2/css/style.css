@@ -1,0 +1,215 @@
+
+@charset "UTF-8";
+
+@media screen and (max-width:640px){
+	#conteneur{
+		color:black;
+		margin: 0 auto 0 auto;
+	}
+}
+
+@media screen and (min-width:640px){
+	#conteneur{
+		color:black;
+		margin: 0 auto 0 auto;
+	}
+}
+
+
+
+/*choix de langage pour la page*/
+html{
+	font-family: "Verdana", sans-serif;
+}
+
+/*style pour body */
+
+body{
+	background-color: gray;
+	padding: 2px;
+	}
+/*definir les parametres de conteneur div */	
+	#conteneur{
+	width: 1200px;
+	min-width:840px;
+	margin:0 auto;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	}
+	
+	/* HEADER */
+	header { 
+	height: 380px;
+        background-image: url("../image/image1.jpg");
+	margin:0;
+	}
+	
+/*style de h1 sur image et les positionner */	
+	header>h1{
+	color: #fff;
+	margin-top:0;
+	position: relative;
+	top: 20px;
+	left: 20px;
+	}
+	
+/*style de h2 sur image et les positionner */	
+	header>h2{
+	color: #fff;
+	position: relative;
+	top:40px;
+	left: 20px;
+	}
+	
+/*style de h3 sur image et les positionner */	
+	header>h3{
+	color: #fff;
+	position: relative;
+	top:70px;
+	left: 20px;
+	}	
+
+/*defenir le style de barre de navigation */	
+	nav{
+	background-color: transparent;
+	display: flex; 
+	position: relative;
+	top: 180px;
+	left: 557px;
+	width:600px;
+ 	list-style-type: none;
+	}
+
+	nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	text-transform: uppercase;
+	}
+		
+   .nav{
+	color:white;
+	}
+		
+	.nav a:hover{
+	color: black;
+	background-color: #fff;
+    }
+
+	.nav li a:hover:not(.active) {
+    background-color: white;
+	color: black;
+}
+
+	.active {
+    background-color: white;
+	color: black;
+}
+
+/* Les styles de section contenu */
+	#contenu{
+	display: flex;
+	display: -webkit-flex;
+	height: 100%;
+	background: #fff;
+	
+	}
+	
+	.main{
+	flex: 2;
+	-webkit-flex: 2;
+	margin-right: 10px;
+	}
+	
+	/*Les style contenu de la page */
+	
+	article{
+		padding: 5px;
+		margin-left: 5px;
+		margin-top:5px;
+		margin-bottom:5px;
+		background-color: #fff;
+		color: black;
+	}
+	
+	article>h2{
+	color: black;
+	}
+	
+	/* Rigth side */
+	
+	aside{
+	background-color:#fff;
+	padding: 10px;
+	-webkit-flex: 1;
+	margin-left: 10px;
+	flex: 1;
+	}
+	
+	aside>h3{
+	color: black;	
+	}
+	
+	aside>ul{
+	list-style-image: url("trombone1.jpg");
+	}
+	
+	aside>ul>li{
+	padding-bottom: 10px;
+	padding-left: 10px;
+	}
+
+	aside>ul>li>a{
+	vertical-align:30%;
+	}
+
+	.search{
+	width: 250px;
+	height: 28px;
+	border-radius: 5px;
+	border: solid 1px #ccc;
+	padding: 3px;
+	color:gray;
+	}
+	
+	.button{
+	vertical-align:middle;
+	}
+	
+/* 	FOOTER */
+	footer { 
+	padding: 15px;	
+	margin-bottom: 1px;
+	text-align: center;
+	color: white;
+	background-color: #999;
+	text-transform: uppercase;
+	}
+	
+	
+	/*les style de table dans le quel s'affiche chaque livre */
+	table{
+		border:3px;
+		width:700px;
+	}
+	
+	table,th,td{
+	border:2px solid white;		
+	}
+
+	table th{
+		color: white;
+		background-color:#999966;
+		text-align:left;
+		padding-left: 5px;
+		height:40px;
+		width:140px;
+	}
+		
+	table td{
+		background-color:#e5e5cc;
+		height:40px;
+		text-align:left;
+		padding-left: 5px;
+	}

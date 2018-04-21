@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<current>
+<city id="6077243" name="Montreal">
+<coord lon="-73.61" lat="45.5"></coord>
+<country>CA</country>
+<sun rise="2018-02-19T11:48:43" set="2018-02-19T22:28:19"></sun>
+</city>
+<temperature value="-0.4" min="-3" max="1" unit="metric"></temperature>
+<humidity value="59" unit="%"></humidity>
+<pressure value="1024" unit="hPa"></pressure>
+<wind>
+<speed value="6.7" name="Moderate breeze"></speed>
+<gusts></gusts>
+<direction value="150" code="SSE" name="South-southeast"></direction>
+</wind>
+<clouds value="75" name="broken clouds"></clouds>
+<visibility value="48279"></visibility>
+<precipitation mode="no"></precipitation>
+<weather number="602" value="heavy snow" icon="13d"></weather>
+<lastupdate value="2018-02-19T15:00:00"></lastupdate>
+</current>

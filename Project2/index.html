@@ -1,0 +1,52 @@
+  <!DOCTYPE html>
+  <html lang="fr">
+  <head>
+		<title>Projet 2 Site Web monopage</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+			<script type="text/javascript" src="js/script.js"></script>
+			<script type="text/javascript" src="js/meteo.js"></script>
+  </head>	
+	<body id="conteneur" onLoad="loadDoc('html_doc/accueil.html'); loadMeteo()">
+		<header>
+		<h1>Projet 2</h1>
+		<h2>Outil de communication client-serveur</h2>
+		<h3>Requete asynchrone: AJAX</h3>
+		
+		<nav id="nav">
+		
+			<li class="nav"><a href="#" onclick="loadDoc('html_doc/accueil.html')">Accueil</a></li>
+			<li class="nav"><a href="#" onclick="loadDoc('html_doc/Fabrication.html')">Fabrication</a></li>
+			<li class="nav"><a href="#" onclick="loadDoc('html_doc/Utilisation.html')">Utilisation</a></li>
+			<li class="nav"><a href="#" onclick="loadDoc('html_doc/Elimination.html')">Elimination</a></li>
+			<li class="nav"><a href="#" onclick="loadDoc('html_doc/Solution.html')">Solution</a></li>
+			
+		</nav>
+	</header>
+	
+	<section id="contenu">
+		<div class="main">
+			
+			<article id="article">
+				
+			</article>
+	
+		</div>		
+
+	<aside>
+		<h3>MÉTÉO</h3>
+		
+			<div id="meteo"></div>
+		
+		<h3>Recherche</h3>
+		<form method="post" action="#" id="search_form">
+		<input type="search" value="Recherche..." name="text_search" class="search" />
+		<input type="image" name="search" src="image/loupe.png" class="button" /></form>	
+</aside>
+	</section>
+	  <footer>
+		  copyright Babcinschi Marina - tous droits réservés	
+	  </footer>	
+	</body>
+</html>
